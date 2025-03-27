@@ -1,4 +1,4 @@
-tiles.setCurrentTilemap(tilemap`level`)
+tiles.setCurrentTilemap(tilemap`level1`)
 let aviao = sprites.create(img`
     ....ffffff.........ccc..
     ....ff22ccf.......cc4f..
