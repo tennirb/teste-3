@@ -17,7 +17,7 @@ let aviao = sprites.create(img`
     ..........fc2ffff.......
     ...........fffff........
     `, SpriteKind.Player)
-aviao.setScale(1, ScaleAnchor.Middle)
+aviao.setScale(4, ScaleAnchor.Middle)
 scene.setBackgroundImage(assets.image`cityscape2`)
 scroller.scrollBackgroundWithSpeed(-9900, 0, scroller.BackgroundLayer.Layer4)
 characterAnimations.loopFrames(
