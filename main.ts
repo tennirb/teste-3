@@ -180,6 +180,3 @@ pessoa,
 500,
 characterAnimations.rule(Predicate.FacingLeft)
 )
-forever(function () {
-    scene.cameraShake(8, 500)
-})
